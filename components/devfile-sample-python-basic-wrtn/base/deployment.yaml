@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-wrtn
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-appstudio-qe/release-e2e-pyxis-tenant/appstudio/devfile-sample-python-basic-wrtn@sha256:fc3bd44d88bc27bb50fe584b49c12477ced3448147a07af9f173d02619473890
         name: my-python
         ports:
         - containerPort: 8081
